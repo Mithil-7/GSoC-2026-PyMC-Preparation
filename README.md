@@ -17,7 +17,7 @@ This repository supports my official Google Summer of Code (GSoC) 2026 proposal 
 
 ## ✨ What this PoC Demonstrates
 
-The included Jupyter Notebook (`advanced_pymc_survival_poc.ipynb`) showcases:
+The included Jupyter Notebook (`PYMC.POC.ipynb`) showcases:
 
 1. **Stable PyTensor Math:** A custom log-likelihood function (`_weibull_aft_logp`) using `pytensor.tensor.where` to cleanly branch between the Probability Density Function (observed events) and the Survival Function (right-censored events).
 2. **Covariate Integration:** An Accelerated Failure Time (AFT) formulation where the Weibull scale parameter ($\lambda$) dynamically updates based on a design matrix of covariates.
